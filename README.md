@@ -1,3 +1,89 @@
+# COVID-19 Dashboard
+
+The aim of the COVID-19 dashboard, developed by [Gil Salvans-Torras](https://www.linkedin.com/in/gil-salvans-torras-b4a231138/) and me, [Eike Blomeier](https://www.linkedin.com/in/eike-blomeier-224362200/), is to have a lightweight representation about the latest development of the COVID-19 situation.
+The COVID-19 dashboard is combining different technologies to aggregate, store and publish the COVID-19 data. Also, several .js-libraries where used to build an interactive web-application. The following paragraphs containing detailed information about design decisions and implementations details. Figure 1 shows the used processes and technologies.
+
+## Data scraping
+To scrape the data from the [Austrian Open Data](https://www.data.gv.at/) portal a R script was developed. The R script scrapes the data from the portal, formats the data for the database, pushes the data into the database and sends a notification e-mail to the developers after. Table 1 contains the used libraries in the script while Table 2 displays the used data sources. To scrape the data on a daily base, the script runs on a Windows Server as a scheduled task every night at 00:30am.
+
+| Library | Used for |
+| ----------- | ----------- |
+| RPostgreSQL | connecting to the PostgreSQL database |
+| DBI | creating the database-driver <br /> performing database operations|
+| gmailr | Sending notification e-mail |
+
+*Table 1 - Used libraries in R*
+
+| Source | Content |
+| ----------- | ----------- |
+| https://covid19-dashboard.ages.at/data/CovidFaelle_Timeline_GKZ.csv | Timeline data for Covid-19 on district level |
+| https://covid19-dashboard.ages.at/data/CovidFaelle_GKZ.csv | Today’s Covid-19 data on district level |
+
+*Table 2 - Data sources*
+
+## Data storing
+To store the data, a PostgreSQL (PostGIS) DBMS is used. The used tables and their corresponding data are shown in Table 3. Indexes are used to enhance querying the tables (Table 4). Views are used to aggregate data from different tables into a single view (Table 5).
+
+| Table | Data |
+| ----------- | ----------- |
+| austria_geoms | Contains the geometry information for the districts |
+| covid19_austria | Contains the COVID-19 data |
+
+*Table 3 - Database tables*
+
+| Index | Index type | on table |
+| ----------- | ----------- | ----------- |
+| austria_gkz_btree_index | btree | covid19_austria |
+| austria_id_btree_index | btree | austria_geoms |
+| austria_time_btree_index | btree | covid19_austria |
+| austria_geom_gist_index | gist | austria_geoms |
+
+*Table 4 - Indexes*
+
+| View | used tables | purpose |
+| ----------- | ----------- | ----------- |
+| austria_cases_today | austria_geoms <br /> covid19_austria | Aggregates the today’s cases with their corresponding geometries |
+| austria_gkz_timeline | covid19_austria | Creates a timeline for all the Austrian districts |
+| austria_timeline | covid19_austria | Creates a timeline for Austria by aggregating the data for all districts |
+
+*Table 5 - Views*
+
+## Data publishing
+GeoServer is used to publish the data from the database as OGC services. Table 6 shows the published services and the database sources. The styling has been carried out using SLD, which also generates a legend, published as WMS.
+
+| Service | Type | Source |
+| ----------- | ----------- | ----------- |
+| austria_cases_today | WFS | austria_cases_today |
+| austria_gkz_timeline | WFS | austria_gkz_timeline |
+| austria_timeline | WFS | austria_timeline |
+
+*Table 6 - GeoServer Services*
+
+## Web-App
+This part encompasses all the front-end work by creating an interactive dashboard web app to be served to everybody through the internet. To do so, the dashboard contains three parts: a web map, a table and time series charts. The web map displays the Covid-19 data regarding the seven days incidence (last 7 days new cases per 100.000 inhabitants) and by hovering with the mouse the user can also retrieve the total number of cases and the district name as popups. Regarding the table, it displays each district and new weekly cases with a search bar that enables personalized search. Additionally, the table can be sorted by any of its attributes. Finally, the time series chart presents the total number of infections since the first outbreak on a national scale by default, but when the user clicks on a specific district it changes to its district. The time series are also interactive in a way that the user can go through them to see each date and cases and also, there are multiple commands on top of the chart that the user can use; download chart, zoom in-out, pan, autoscaling, reset axes, show closest data on hover and compare data on hover. In agreement with this, these dashboard elements make it fully interactive and easy to use.
+In technical terms, it has been developed by using NodeJS (JavaScript server-side runtime environment) and Parcel to bundle the web app. Therefore, it will be deployed on a production server from the university to guarantee a universal access via internet. Finally, the upcoming Table 7 specifies which libraries and node modules have been used.
+
+| Library | used for |
+| ----------- | ----------- |
+| OpenLayers v.6.4.3 | Web Map development and geospatial matters |
+| Ol-ext | Extension plugin of OpenLayers used for popups |
+| Grid JS | Table elaboration |
+| Plotly JS | Time-series charting |
+| jQuery | JSON data handling (requested using AJAX) -> for non-geospatial matters (table & plots) |
+
+*Table 7 - used JS libraries*
+
+## Server
+To serve the application as a Web-App, Apache Tomcat Server is used. The Web-App is deployed in the following domain: [human.zgis.at/coda](human.zgis.at/coda).
+
+![CODA workflow](CODA_workflow.png)
+*Figure 1 - CODA workflow*
+
+
+++UPDATE++\
+Due to the official end of the COVID-19 pandemic, the hosting of the website was terminated. The used source-code alongside installing instructions can be requested [here](mailto:eike.blomeier@stud.plus.ac.at). The final version of the dashboard was capable to display the situation in Austria, Germany and Spain.
+
+
 # Internship @ [Ocean Maps GmbH](https://www.ocean-maps.com/)
 
 The internship took place from the 1st of July until the 31st of August 2022 at Ocean Maps GmbH. Ocean Maps is a globally operating, Salzburg based survey office specialized in hydrological surveys as well as merging point cloud data from different sensors in a single model.
