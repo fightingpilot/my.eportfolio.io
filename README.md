@@ -1,19 +1,28 @@
 <style>
-    .grid-container {
+    .grid-container2 {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
+        padding: 10px; 
+    }
+
+        .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto;
         padding: 10px; 
     }
 </style>
 <h1 style="text-align: center;">About me</h1>
 
+<div class="grid-container2">
+ <div class="grid-item"><img src=_MG_3513_cut_color.jpg width="80%"></div>
+  <div class="grid-item"><p style="text-align: center;">This ePortfolio gives an insight of my results I achieved during the M.Sc. Applied Geoinformatics program at Salzburg University as well as achievements at the Reykjavik University during my Erasmus. Feel free to contact me here: <br> <br> <a href="https://www.linkedin.com/in/eike-blomeier-224362200/"><img src=linkedin.png width="40" height="40"></a><a href="mailto:eike.blomeier@live.de"> <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/email_3686989.png?raw=true width="40" height="40"></a></p></div>
+</div>
 
-
- <div class="grid-container">
+<h1>Projects - Paris-Lodron University</h1>
+<div class="grid-container">
   <div class="grid-item"><img src=_MG_3513_cut_color.jpg width="80%"></div>
   <div class="grid-item"><p style="text-align: center;">This ePortfolio gives an insight of my results I achieved during the M.Sc. Applied Geoinformatics program at Salzburg University as well as achievements at the Reykjavik University during my Erasmus. Feel free to contact me here: <br> <br> <a href="https://www.linkedin.com/in/eike-blomeier-224362200/"><img src=linkedin.png width="40" height="40"></a><a href="mailto:eike.blomeier@live.de"> <img src=email_3686989.png width="40" height="40"></a></p></div>
 </div>
-
 
 # COVID-19 Dashboard
 
