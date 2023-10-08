@@ -1,64 +1,82 @@
 <html lang="en">
-<style>
-.grid-container2 {
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.grid-container3 {
-    display: grid;
-    grid-template-columns: 300px 300px 300px; 
-}
-.grid-item {
-    text-align: center;
-}
-</style>
-<body>
-<h1 style="text-align: center;">About me</h1>
-
-<div class="grid-container2">
-<div class="grid-item">
-<img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true" width="80%">
-</div>
-<div class="grid-item">
-<p>This ePortfolio gives an insight of my results I achieved during the M.Sc. Applied Geoinformatics program at Salzburg University as well as achievements at the Reykjavik University during my Erasmus. Feel free to contact me here:
-<br><br>
-<a href="https://www.linkedin.com/in/eike-blomeier-224362200/" target="_blank">
-<img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/linkedin.png?raw=true" width="40" height="40">
-</a>
-<a href="mailto:eike.blomeier@live.de" target="_blank">
-<img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/email_3686989.png?raw=true" width="40" height="40">
-</a>
-</p>
-</div>
-</div>
-
-<br>
-
-<h1 style="text-align: center;"><strong>Master thesis</strong><br>The information flood: How to stay afloat
-A Comparative Evaluation of Machine Learning Models for Relevance Classification of Flood-Related Tweets</h1>
-<p style="text-align: center;">
-<i>Abstract</i><br>
-Typically, during the early stages of a disaster, the amount of available and useful information is low. To fill this information gap, emergency responders are increasingly often using social media to gain insights from eyewitnesses to build a better understanding of the situation and design  effective responses. Recent developments like BERT have lifted NLP to the next level and successfully proven their capabilities in a wide range of NLP problems, outperforming previous state of the art methods. This work presents a comparison of BERT to different machine learning models for relevance classification tasks. Tweets are classified based on their relevance regarding flooding emergencies. Experts categorised Tweets to train the algorithms. Additionally, a prototype metric – called Gaussian score – is developed to overcome the issue of when misclassified data must to be treated differently.  A central limitation was the scarce number of German Tweets relating to a flooding event. Yet, the results look promising, scoring an average precision of 71% with most of the misclassifications happening between more similar classes.<br><br>
-For the full thesis go <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Masterarbeit_EikeBlomeier.pdf">here</a>.
-</p>
-
-<br>
-
-<h1>Projects - Paris-Lodron University</h1>
-<div class="grid-container3">
-<div class="grid-item">
-<h3 style="text-align: center;">CODA</h3>
-<p>
-CODA stands for <i>COVID-19 Dashboard</i>. The aim of the COVID-19 dashboard, developed by
-<a href="https://www.linkedin.com/in/gil-salvans-torras-b4a231138/" target="_blank">Gil Salvans-Torras</a> and me, Eike Blomeier. This project consists of the development of a Spatial Data Infrastructure (SDI) with a thematical focus on the Covid19 pandemic in three countries: Austria, Germany, and Spain. In agreement with this, the infrastructure is continuously running and its data is updated in a daily basis automatically so the user can get a general understanding of the status of the pandemic in each of the aforementioned countries with the latest data through an interactive web application with different dashboards. To achieve this, this SDI can be divided in three stages. The first one, which regards to the daily data collection and setting it up into a geospatial database. Secondly, connecting the database to a GI Server to publish all the data as standard OGC services. Finally, a retrieval of the different services is carried out by the different dashboards of the web application.<br>
-For further readings and results of this project please klick <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Blomeier_Salvans_CODA_FinalDocumentation.pdf" target="_blank">here</a>.
-</p>
-</div>
-<div class="grid-item">
-</div>
-</div>
-</body>
+    <style>
+        .grid-container2 {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .grid-container3 {
+            display: grid;
+            grid-template-columns: 300px 300px 300px; 
+        }
+        .grid-item {
+            text-align: center;
+        }
+    </style>
+    <body>
+        <h1 style="text-align: center;">About me</h1>
+        <div class="grid-container2">
+            <div class="grid-item">
+                <img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true" width="80%">
+            </div>
+            <div class="grid-item">
+                <p>This ePortfolio gives an insight of my results I achieved during the M.Sc. Applied Geoinformatics program at Salzburg University as well as achievements at the Reykjavik University during my Erasmus. Feel free to contact me here:
+                    <br><br>
+                    <a href="https://www.linkedin.com/in/eike-blomeier-224362200/" target="_blank">
+                        <img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/linkedin.png?raw=true" width="40" height="40">
+                    </a>
+                    <a href="mailto:eike.blomeier@live.de" target="_blank">
+                        <img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/email_3686989.png?raw=true" width="40" height="40">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <br>
+        <h1 style="text-align: center;">
+            <strong>Master thesis</strong><br>The       information flood: How to stay afloat<br>
+            A Comparative Evaluation of Machine Learning Models for Relevance Classification of Flood-Related Tweets</h1>
+        <p style="text-align: center;">
+            <i>Abstract</i><br>
+            Typically, during the early stages of a disaster, the amount of available and useful information is low. To fill this information gap, emergency responders are increasingly often using social media to gain insights from eyewitnesses to build a better understanding of the situation and design  effective responses. Recent developments like BERT have lifted NLP to the next level and successfully proven their capabilities in a wide range of NLP problems, outperforming previous state of the art methods. This work presents a comparison of BERT to different machine learning models for relevance classification tasks. Tweets are classified based on their relevance regarding flooding emergencies. Experts categorised Tweets to train the algorithms. Additionally, a prototype metric – called Gaussian score – is developed to overcome the issue of when misclassified data must to be treated differently.  A central limitation was the scarce number of German Tweets relating to a flooding event. Yet, the results look promising, scoring an average precision of 71% with most of the misclassifications happening between more similar classes.<br><br>
+            For the full thesis go <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Masterarbeit_EikeBlomeier.pdf">here</a>.
+        </p>
+        <br>
+        <h1>Projects - Paris-Lodron University</h1>
+        <div class="grid-container3">
+            <div class="grid-item">
+                <h3 style="text-align: center;">CODA</h3>
+                <p>
+                    CODA stands for <i>COVID-19 Dashboard</i>. The aim of the COVID-19 dashboard, developed by
+                    <a href="https://www.linkedin.com/in/gil-salvans-torras-b4a231138/" target="_blank">Gil Salvans-Torras</a> and me, Eike Blomeier. This project consists of the development of a Spatial Data Infrastructure (SDI) with a thematical focus on the Covid19 pandemic in three countries: Austria, Germany, and Spain. In agreement with this, the infrastructure is continuously running and its data is updated in a daily basis automatically so the user can get a general understanding of the status of the pandemic in each of the aforementioned countries with the latest data through an interactive web application with different dashboards. To achieve this, this SDI can be divided in three stages. The first one, which regards to the daily data collection and setting it up into a geospatial database. Secondly, connecting the database to a GI Server to publish all the data as standard OGC services. Finally, a retrieval of the different services is carried out by the different dashboards of the web application.<br>
+                    For further readings and results of this project please klick <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Blomeier_Salvans_CODA_FinalDocumentation.pdf" target="_blank">here</a>.
+                </p>
+            </div>
+            <div class="grid-item">
+            </div>
+        </div>
+        <h1>Internship @ <a href="https://www.ocean-maps.com/">Ocean Maps GmbH</a></h1>
+        <p>Ocean Maps GmbH is a survey office located in Salzburg, Austria. Its main work of field is hydrography and drone based surveying. During my internship I had the possibility to test and develop potential new equipment as well as working in the field with experienced colleagues performing hydrological surveys using a multibeam sonar system.<br>
+        A more detailed report about my tasks and the outcomes of the internship you find <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Internship_report.pdf" target="_blank">here</a>.
+    </body>
 </html>
+
+# Internship @ [Ocean Maps GmbH](https://www.ocean-maps.com/)
+
+The internship took place from the 1st of July until the 31st of August 2022 at Ocean Maps GmbH. Ocean Maps is a globally operating, Salzburg based survey office specialized in hydrological surveys as well as merging point cloud data from different sensors in a single model.
+
+During my internship, I gathered insights in the different fields Ocean Maps is dealing with. On the one hand, I was able to learn about how purpose-oriented research and testing is done, on the other hand I was taught about the full process of hydrological surveying. From gathering the data, to process it and what is important for the clients’ technical report.
+
+One of my first tasks was to test an industrial camera by the Bavarian manufacturer SVS-Vistek. The goal was to figure out if the camera is suitable for mounting on a remote-controlled survey vessel, to combine the imagery with an already mounted laser scanner. During the testing phase, different tests were carried out to see how the camera is working in a stationary environment, how the camera is working in a moving environment and how customizable the camera is.
+After getting familiar with the SVS-Visteks camera control tool SVCamKit, the first tests were carried out to see how the camera is working in a stationary environment and to get more familiar with the camera in general. The focus of the test was to see how realistic the colouring of the images is, how good the camera-focus and zoom works for different ranges from very short (~1m) to far away (~100m) and how well the camera works in different lighting conditions.
+In the next phase, the camera was mounted on a movable tripod to see the cameras behaviour in a moving environment and pushed alongside similar structures like the camera was supposed to work with when mounted on the vessel. After this was repeated several times in different distances and lighting conditions, the pictures were analysed using the GIMP editor. In particular, the behaviour of the camera’s rolling shutter was to be analysed when the camera is moving while taking pictures.
+Finally, I researched the manual of the camera to gain knowledge of the extensibility of the camera.
+For my personal learning objectives, I learned about what are important features a camera should fulfil when being used on a moving platform as well as what are important camera specs when a camera must be used for professional, surveying tasks. Additionally, I learned about how a product testing is rolled out and what information is necessary to obtain and communicate with other persons in charge.
+
+In the advanced phase of the internship, I gained insights into vessel based hydrological surveying. Experienced colleagues taught me the fundamentals of hydrological surveying. Here, three major points were important:
+1.	On-site GPS calibration of the sonar system before the boat is put into the water. This was performed using a tachymeter to measure the positions of the GPS-antennas in the used coordinate system. Later, the measured positions were compared to the positions measured by the GPS antennas to proof the absolute accuracy of the system.
+2.	Setting up a base-station. The base-station is needed in case of loosing the connection for RTC-data while surveying. For set up, the base-station can either be placed over an official marking or the positions is determined using a tachymeter and / or RTC. To guarantee a good satellite-lock, the base-station must be place in a location where it can’t tip over (e.g., by cattle or human) and the sky-view is optimal (no buildings or trees a blocking the sky).
+3.	Surveying using the “iWBMS” sonar on a vessel. The iWBMS Multibeam Sonar is used for the hydrological surveying. It is capable to measure the bottom of a waterbody with a precision up to 2 cm. Here, I was taught how to operate the survey-vessel in order to achieve optimal results surveying the waterbody. Additionally, I learned about the fundamental physics for sonar-based measurements. One of the most important things for high-quality results is to know the current speed of sound in the water column, since it can change a lot depending on the temperature and floating sediments. Using no or not the right sound-profile can result in a depth-difference of centimetres.
+
+During the final phase of my internship, the basics of hydrological data processing were shown to me. I learned about how to clean the previous surveyed data using BeamworkX AutoClean. This is important since the sonar data will contain noise which leads to a false model. Noise can come from several sources. The most popular one is the noise which is produced by the system itself when the angle of the backscatter is relatively horizontal. This data is useless and must be deleted from the dataset. Other noise, e.g., algae usually has to be deleted as well since they will affect the quality of the interpolation for a 3D-model.
 
 
 # Designing an (Icelandic) TTS @ Reykjavik University
@@ -156,21 +174,3 @@ Finally, the two different Festival TTS models are performing very different reg
 ## Conclusions
 In the authors opinion, the unit selection models sounds more natural compared to the more electronic and disturbed voice of the clustergen model. Both models were trained on 500 sentences, but the clustergen voice used a given model to train with the 500 sentences. This is a fairly low amount of data, compared to all the possible sentences and diphone combinations. Regarding to that, models could be improved by increasing the amount of training data on the one hand. On the other hand, it could be more useful to think of the use case for the TTS. E.g., a TTS what is designed to call out train connections in train stations probably won’t need to call out weather forecasts and vice versa. This could improve the use-case result significantly. Additionally, this TTS was tested under the best possible conditions (headphones, no noise from the outside) while in reality, these conditions are rarely given and the TTS should better be tested in places where it will be used in the future.
 
-# Internship @ [Ocean Maps GmbH](https://www.ocean-maps.com/)
-
-The internship took place from the 1st of July until the 31st of August 2022 at Ocean Maps GmbH. Ocean Maps is a globally operating, Salzburg based survey office specialized in hydrological surveys as well as merging point cloud data from different sensors in a single model.
-
-During my internship, I gathered insights in the different fields Ocean Maps is dealing with. On the one hand, I was able to learn about how purpose-oriented research and testing is done, on the other hand I was taught about the full process of hydrological surveying. From gathering the data, to process it and what is important for the clients’ technical report.
-
-One of my first tasks was to test an industrial camera by the Bavarian manufacturer SVS-Vistek. The goal was to figure out if the camera is suitable for mounting on a remote-controlled survey vessel, to combine the imagery with an already mounted laser scanner. During the testing phase, different tests were carried out to see how the camera is working in a stationary environment, how the camera is working in a moving environment and how customizable the camera is.
-After getting familiar with the SVS-Visteks camera control tool SVCamKit, the first tests were carried out to see how the camera is working in a stationary environment and to get more familiar with the camera in general. The focus of the test was to see how realistic the colouring of the images is, how good the camera-focus and zoom works for different ranges from very short (~1m) to far away (~100m) and how well the camera works in different lighting conditions.
-In the next phase, the camera was mounted on a movable tripod to see the cameras behaviour in a moving environment and pushed alongside similar structures like the camera was supposed to work with when mounted on the vessel. After this was repeated several times in different distances and lighting conditions, the pictures were analysed using the GIMP editor. In particular, the behaviour of the camera’s rolling shutter was to be analysed when the camera is moving while taking pictures.
-Finally, I researched the manual of the camera to gain knowledge of the extensibility of the camera.
-For my personal learning objectives, I learned about what are important features a camera should fulfil when being used on a moving platform as well as what are important camera specs when a camera must be used for professional, surveying tasks. Additionally, I learned about how a product testing is rolled out and what information is necessary to obtain and communicate with other persons in charge.
-
-In the advanced phase of the internship, I gained insights into vessel based hydrological surveying. Experienced colleagues taught me the fundamentals of hydrological surveying. Here, three major points were important:
-1.	On-site GPS calibration of the sonar system before the boat is put into the water. This was performed using a tachymeter to measure the positions of the GPS-antennas in the used coordinate system. Later, the measured positions were compared to the positions measured by the GPS antennas to proof the absolute accuracy of the system.
-2.	Setting up a base-station. The base-station is needed in case of loosing the connection for RTC-data while surveying. For set up, the base-station can either be placed over an official marking or the positions is determined using a tachymeter and / or RTC. To guarantee a good satellite-lock, the base-station must be place in a location where it can’t tip over (e.g., by cattle or human) and the sky-view is optimal (no buildings or trees a blocking the sky).
-3.	Surveying using the “iWBMS” sonar on a vessel. The iWBMS Multibeam Sonar is used for the hydrological surveying. It is capable to measure the bottom of a waterbody with a precision up to 2 cm. Here, I was taught how to operate the survey-vessel in order to achieve optimal results surveying the waterbody. Additionally, I learned about the fundamental physics for sonar-based measurements. One of the most important things for high-quality results is to know the current speed of sound in the water column, since it can change a lot depending on the temperature and floating sediments. Using no or not the right sound-profile can result in a depth-difference of centimetres.
-
-During the final phase of my internship, the basics of hydrological data processing were shown to me. I learned about how to clean the previous surveyed data using BeamworkX AutoClean. This is important since the sonar data will contain noise which leads to a false model. Noise can come from several sources. The most popular one is the noise which is produced by the system itself when the angle of the backscatter is relatively horizontal. This data is useless and must be deleted from the dataset. Other noise, e.g., algae usually has to be deleted as well since they will affect the quality of the interpolation for a 3D-model.
