@@ -18,7 +18,7 @@
 
 <div class="grid-container2">
     <div class="grid-item">
-        <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true width="80%">
+        <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true>
         ![Absolute scores per listener and sentence](TTS_fig07.png)
     </div>
     <div class="grid-item">
@@ -34,6 +34,8 @@
     </div>
 </div>
 
+<br>
+
 <h1 style="text-align: center;"><strong>Master thesis</strong><br>The information flood: How to stay afloat
 A Comparative Evaluation of Machine Learning Models for Relevance Classification of Flood-Related Tweets</h1>
 <p style="text-align: center;">
@@ -42,8 +44,8 @@ Typically, during the early stages of a disaster, the amount of available and us
 For the full thesis go <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Masterarbeit_EikeBlomeier.pdf">here</a>.
 </p>
 
-
 <br>
+
 <h1>Projects - Paris-Lodron University</h1>
 <div class="grid-container3">
     <div class="grid-item">
