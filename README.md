@@ -18,16 +18,15 @@
 <div class="grid-container2">
 <div class="grid-item">
 <img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true" width="80%">
-<img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true width="80%">
 </div>
 <div class="grid-item">
 <p>This ePortfolio gives an insight of my results I achieved during the M.Sc. Applied Geoinformatics program at Salzburg University as well as achievements at the Reykjavik University during my Erasmus. Feel free to contact me here:
 <br><br>
 <a href="https://www.linkedin.com/in/eike-blomeier-224362200/" target="_blank">
-<img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/linkedin.png?raw=true width="40" height="40">
+<img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/linkedin.png?raw=true" width="40" height="40">
 </a>
 <a href="mailto:eike.blomeier@live.de" target="_blank">
-<img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/email_3686989.png?raw=true width="40" height="40">
+<img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/email_3686989.png?raw=true" width="40" height="40">
 </a>
 </p>
 </div>
