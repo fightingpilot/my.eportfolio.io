@@ -13,6 +13,7 @@
         }
     </style>
     <body>
+    <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true width="80%">
 <h1 style="text-align: center;">About me</h1>
 
 <div class="grid-container2">
