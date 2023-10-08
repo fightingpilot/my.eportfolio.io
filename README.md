@@ -64,6 +64,12 @@
                     The purpose of this project was to get a deeper insight of the power of web-mapping services. Compared to static maps web-maps are giving the creator many more option to deliver a message to the viewer. One of those options are called <i>flow-maps</i>. Flow-maps are a powerful tool to visualize the different flow like good, air-travel, etc. Unfortunateley, to create such a map costly software like <a href="https://storymaps.arcgis.com/stories/a99b52c4de174b47bdf3e42232c9bc63" target="_blank">ArcGIS</a> or <a href="https://help.tableau.com/current/pro/desktop/en-us/maps_howto_origin_destination.htm" target="_blank">Tableau</a> is needed. Therefore, I developed a simple web-mapping application to show flows using Leaflet and Vue.js. A detailed report of the application can be read <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/geovis_and_advanced_carto/Report_Blomeier.pdf" target="_blank">here</a> while the source code of the app can be viewed <a href="https://github.com/fightingpilot/my.eportfolio.io/tree/main/documents/geovis_and_advanced_carto/flowmaps_app" target="_blank">here</a>.
                 </p>
             </div>
+            <div class="grid-item">
+                <h3>Spatial databases</h3>
+                <p style="text-align: left;">
+                    In this project my goal was to create a database structure for a festival to be served as a WFS. I used the map, acts, and shops of the Hurricane Festival 2019 as example data to populate the database. The data can be downloaded <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Spatial%20databases/Spatial%20databases.zip" target="_blank">here</a>. Before using the example data I recommend to read my <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Spatial%20databases/Blomeier_EOT_Assignment.pdf" target="_blank">instructions</a> carefully. To be able to create the needed databases <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> and its <a href="https://postgis.net/" target="_blank">PostGIS</a> extension must be installed. To view the data <a href="https://www.qgis.org/de/site/" target="_blank">QGIS</a> is recommended.
+                </p>
+            </div>
         </div>
         <br>
         <h1>Internship @ <a href="https://www.ocean-maps.com/">Ocean Maps GmbH</a></h1>
