@@ -51,6 +51,11 @@
                 </p>
             </div>
             <div class="grid-item">
+            <h3 style="text-align: center;">Spatial dynamics with Cellular Automata</h3>
+                <p>
+                    Agent-based modeling becomes more and more popular across all different kinds of scientific fields. It is used to model real-world phenomena like the spread of viruses or the urban sprawl as well as highly theoretical models like the Game of Life. While some modelling software requires advanced programming skills, others are really comfortable to use and learn. The focus is on this modelling software. Therefore, NetLogo and GAMA are introduced and analyzed for their strengths weaknesses especially in the GIS domain. Eventually it will be concluded that GAMA has more strengths in this field while NetLogo is richer in available plugins.<br>
+                    To get a deeper understanding of the important features for spatial simulations in the GIS domain I encourage you to dive deeper by reading <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Blomeier_Spatial_Dynamics.pdf" target="_blank">my paper</a>.
+                </p>
             </div>
         </div>
         <br>
