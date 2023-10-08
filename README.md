@@ -17,6 +17,7 @@
 
 <div class="grid-container2">
 <div class="grid-item">
+<img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true" width="80%">
 <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true width="80%">
 </div>
 <div class="grid-item">
