@@ -6,7 +6,8 @@
         }
         .grid-container3 {
             display: grid;
-            grid-template-columns: 300px 300px 300px; 
+            grid-template-columns: 300px 300px 300px;
+            grid-gap: 15px;
         }
         .grid-item {
             text-align: center;
@@ -43,18 +44,24 @@
         <h1>Projects - Paris-Lodron University</h1>
         <div class="grid-container3">
             <div class="grid-item">
-                <h3 style="text-align: center;">CODA</h3>
-                <p>
+                <h3>CODA</h3>
+                <p style="text-align: left;">
                     CODA stands for <i>COVID-19 Dashboard</i>. The aim of the COVID-19 dashboard, developed by
                     <a href="https://www.linkedin.com/in/gil-salvans-torras-b4a231138/" target="_blank">Gil Salvans-Torras</a> and me, Eike Blomeier. This project consists of the development of a Spatial Data Infrastructure (SDI) with a thematical focus on the Covid19 pandemic in three countries: Austria, Germany, and Spain. In agreement with this, the infrastructure is continuously running and its data is updated in a daily basis automatically so the user can get a general understanding of the status of the pandemic in each of the aforementioned countries with the latest data through an interactive web application with different dashboards. To achieve this, this SDI can be divided in three stages. The first one, which regards to the daily data collection and setting it up into a geospatial database. Secondly, connecting the database to a GI Server to publish all the data as standard OGC services. Finally, a retrieval of the different services is carried out by the different dashboards of the web application.<br>
                     For further readings and results of this project please klick <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Blomeier_Salvans_CODA_FinalDocumentation.pdf" target="_blank">here</a>.
                 </p>
             </div>
             <div class="grid-item">
-            <h3 style="text-align: center;">Spatial dynamics with Cellular Automata</h3>
-                <p>
+                <h3>Spatial dynamics with Cellular Automata</h3>
+                <p style="text-align: left;">
                     Agent-based modeling becomes more and more popular across all different kinds of scientific fields. It is used to model real-world phenomena like the spread of viruses or the urban sprawl as well as highly theoretical models like the Game of Life. While some modelling software requires advanced programming skills, others are really comfortable to use and learn. The focus is on this modelling software. Therefore, NetLogo and GAMA are introduced and analyzed for their strengths weaknesses especially in the GIS domain. Eventually it will be concluded that GAMA has more strengths in this field while NetLogo is richer in available plugins.<br>
                     To get a deeper understanding of the important features for spatial simulations in the GIS domain I encourage you to dive deeper by reading <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Blomeier_Spatial_Dynamics.pdf" target="_blank">my paper</a>.
+                </p>
+            </div>
+            <div class="grid-item">
+                <h3>Geovisualization and advanced cartography</h3>
+                <p style="text-align: left;">
+                    The purpose of this project was to get a deeper insight of the power of web-mapping services. Compared to static maps web-maps are giving the creator many more option to deliver a message to the viewer. One of those options are called <i>flow-maps</i>. Flow-maps are a powerful tool to visualize the different flow like good, air-travel, etc. Unfortunateley, to create such a map costly software like <a href="https://storymaps.arcgis.com/stories/a99b52c4de174b47bdf3e42232c9bc63" target="_blank">ArcGIS</a> or <a href="https://help.tableau.com/current/pro/desktop/en-us/maps_howto_origin_destination.htm" target="_blank">Tableau</a> is needed. Therefore, I developed a simple web-mapping application to show flows using Leaflet and Vue.js. A detailed report of the application can be read <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/geovis_and_advanced_carto/Report_Blomeier.pdf" target="_blank">here</a> while the source code of the app can be viewed <a href="https://github.com/fightingpilot/my.eportfolio.io/tree/main/documents/geovis_and_advanced_carto/flowmaps_app" target="_blank">here</a>.
                 </p>
             </div>
         </div>
