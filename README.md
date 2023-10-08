@@ -18,7 +18,7 @@
 
 <div class="grid-container2">
     <div class="grid-item">
-        <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true>
+        <img src=https://github.com/fightingpilot/my.eportfolio.io/blob/main/_MG_3513_cut_color.jpg?raw=true width="80%" />
         ![Absolute scores per listener and sentence](TTS_fig07.png)
     </div>
     <div class="grid-item">
