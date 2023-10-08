@@ -20,7 +20,7 @@
                 <img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/img/_MG_3513_cut_color.jpg?raw=true" width="80%">
             </div>
             <div class="grid-item">
-                <p>This ePortfolio gives an insight of my results I achieved during the M.Sc. Applied Geoinformatics program at Salzburg University as well as achievements at the Reykjavik University during my Erasmus. Feel free to contact me here:
+                <p>I'm Eike Blomeier and I studied Applied Geoinformatics at the Paris-Lodron University. This ePortfolio documents projects I liked during my studies at the PLUS and Reykjavik Univesity as well as my thesis. Feel free to take a look at my LinkedIn page for more details on skills and work experience or write me an e-mail in case you want to get in touch and/or have questions regarding the posted projects:
                     <br><br>
                     <a href="https://www.linkedin.com/in/eike-blomeier-224362200/" target="_blank">
                         <img src="https://github.com/fightingpilot/my.eportfolio.io/blob/main/img/linkedin.png?raw=true" width="40" height="40">
