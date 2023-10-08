@@ -79,7 +79,8 @@
         </p>
         <h1>Erasmus @ <a href="https://en.ru.is/" target="_blank">Reykjavik University</a></h1>
         <p>
-            At the <i>Háskólinn í Reykjavík</i> I had the opportunity to look beyond the GIS related classes and gain insights to different fields of computer science. One of the more interesting and not so common classes was <i>Talgerving</i>. The purpose of the class was to design an text-to-speech system using <a href="https://www.cstr.ed.ac.uk/projects/festival/" target="_blank">Festival</a> and Docker. For more detailed information about the class and the finals TTS I recommend to read my <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Final_Blomeier.pdf" target="_blank">final paper</a> about my results during the class.
+            At the <i>Háskólinn í Reykjavík</i> I had the opportunity to look beyond the GIS related classes and gain insights to different fields of computer science. One of the more interesting and not so common classes was <i>Talgerving</i>. The purpose of the class was to design an text-to-speech system using <a href="https://www.cstr.ed.ac.uk/projects/festival/" target="_blank">Festival</a> and Docker.<br>
+            For more detailed information about the class and the final TTS I created, I recommend to read my <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Final_Blomeier.pdf" target="_blank">final paper</a> about my results during the class.
         </p>
     </body>
 </html>
