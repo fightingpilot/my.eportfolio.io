@@ -1,9 +1,15 @@
+<h1 style="text-align: center;">About me</h1>
+<p style="text-align: center;">Sample text with center alignment</p>
+
 # About me
 Eike Blomeier \
 Geoinformatician \
 [Salzburg, Austria](https://www.google.de/maps/place/Salzburg/@47.8028958,12.9740299,12z/data=!3m1!4b1!4m6!3m5!1s0x47769adda908d4b1:0xc1e183a1412af73d!8m2!3d47.80949!4d13.05501!16zL20vMGIxbWY?entry=ttu) \
 [LinkedIn](https://www.linkedin.com/in/eike-blomeier-224362200/) \
 [Send me an email](mailto:eike.blomeier@live.de)
+
+<h1 style="text-align: center;">Sample text with center alignment</h1>
+
 
 # COVID-19 Dashboard
 
