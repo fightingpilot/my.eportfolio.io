@@ -38,7 +38,7 @@
         <p style="text-align: center;">
             <i>Abstract</i><br>
             Typically, during the early stages of a disaster, the amount of available and useful information is low. To fill this information gap, emergency responders are increasingly often using social media to gain insights from eyewitnesses to build a better understanding of the situation and design  effective responses. Recent developments like BERT have lifted NLP to the next level and successfully proven their capabilities in a wide range of NLP problems, outperforming previous state of the art methods. This work presents a comparison of BERT to different machine learning models for relevance classification tasks. Tweets are classified based on their relevance regarding flooding emergencies. Experts categorised Tweets to train the algorithms. Additionally, a prototype metric – called Gaussian score – is developed to overcome the issue of when misclassified data must to be treated differently.  A central limitation was the scarce number of German Tweets relating to a flooding event. Yet, the results look promising, scoring an average precision of 71% with most of the misclassifications happening between more similar classes.<br><br>
-            For the full thesis go <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Masterarbeit_EikeBlomeier.pdf">here</a>.
+            For the full thesis go <a href="https://github.com/fightingpilot/my.eportfolio.io/blob/main/documents/Masterarbeit_EikeBlomeier.pdf" target="_blank">here</a>.
         </p>
         <br>
         <h1>Projects - Paris-Lodron University</h1>
